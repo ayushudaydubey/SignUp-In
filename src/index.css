@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.users{
+  scrollbar-width: none;
+}
