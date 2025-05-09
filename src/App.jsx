@@ -25,7 +25,7 @@ function submitHandler (e) {
         {toggler ?  <Register toggler = {toggler} settoggler ={settoggler} submitHandler ={submitHandler}/> : <Login  toggler = {toggler} settoggler ={settoggler} submitHandler ={submitHandler} />}
       </div>
       <div className=''>
-        <Users  data = {data} />
+        <Users  data = {data} setdata = {setdata} />
       </div>
     </div>
   )
