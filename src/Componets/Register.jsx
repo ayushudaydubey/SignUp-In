@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Register = ({ toggler, settoggler, submitHandler }) => {
   return (
     <div className='bg-gray-900 border-2 border-blue-300 p-8 rounded-xl max-w-md mx-auto mt-10 shadow-xl'>
